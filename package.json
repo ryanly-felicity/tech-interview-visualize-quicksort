@@ -1,0 +1,14 @@
+{
+  "name": "tech-interview-visualize-quicksort",
+  "version": "1.0.0",
+  "description": "Minimal TypeScript setup with live reload for a quicksort visualizer.",
+  "scripts": {
+    "start": "pnpm install && parcel public/index.html",
+    "build": "parcel build public/index.html"
+  },
+  "keywords": [],
+  "author": "Felicity",
+  "devDependencies": {
+    "parcel": "^2.16.1"
+  }
+}
